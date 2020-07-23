@@ -31,7 +31,7 @@ app.use(passport.session());
 //require('./routes/authRoutes') returns
 // a function and app is passed into it
 require("./routes/authRoutes")(app);
-// require("./routes/billingRoutes")(app);
+require("./routes/billingRoutes")(app);
 
 if (process.env.NODE_ENV === "production") {
   //express will serve up production assets
@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === "production") {
 
   //from my understanding express checks
   // if it express server has this route
-  app.user(express.static("client/build"));
+  app.use(express.static("client/build"));
 
   //express will serve up the index.html
   // if it doesn't recognize the route
