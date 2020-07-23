@@ -8,7 +8,8 @@ module.exports = {
   stripePublishableKey:
     "pk_test_51H7Xe3BegJpnimM4YmZ1zde8xgnOYvfWz6wcLYwVXxGp2u8wkVSjWnP7ZoX3D8eOGVdb3DgxlXzGNRtraISIEE1100XgqwfkVS",
   stripeSecretKey:
-    "sk_test_51H7Xe3BegJpnimM4ARZJoHztrYOiNxvwwAVXwyHpcWZOkIt9BFg019gPACsXwC6RD7VckBaDHz10HQgi3CsD943B00m01mBgPp",
+    "pk_test_51H7Xe3BegJpnimM4YmZ1zde8xgnOYvfWz6wcLYwVXxGp2u8wkVSjWnP7ZoX3D8eOGVdb3DgxlXzGNRtraISIEE1100XgqwfkVS",
+  // "sk_test_51H7Xe3BegJpnimM4ARZJoHztrYOiNxvwwAVXwyHpcWZOkIt9BFg019gPACsXwC6RD7VckBaDHz10HQgi3CsD943B00m01mBgPp",
   // one option to fix the https problem:
   // googleRedirectURI: 'https://sleepy-tundra-26030.herokuapp.com'
 
