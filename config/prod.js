@@ -7,8 +7,7 @@ module.exports = {
   stripePublishableKey:
     "pk_test_51H7Xe3BegJpnimM4YmZ1zde8xgnOYvfWz6wcLYwVXxGp2u8wkVSjWnP7ZoX3D8eOGVdb3DgxlXzGNRtraISIEE1100XgqwfkVS",
   // stripeSecretKey: process.env.STRIPE_SECRET_KEY,
-  stripeSecretKey:
-    "sk_test_51H7Xe3BegJpnimM4ARZJoHztrYOiNxvwwAVXwyHpcWZOkIt9BFg019gPACsXwC6RD7VckBaDHz10HQgi3CsD943B00m01mBgPp",
+  stripeSecretKey: "123",
 
   //123456Abc
   //mongodb+srv://myuser:654Abc@cluster0.kc9md.mongodb.net/dbase?retryWrites=true&w=majority
