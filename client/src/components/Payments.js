@@ -18,7 +18,9 @@ class Payments extends Component {
         // post to /api/stripe
         // (dispatch) reducer fetchUser -> return true/false
         // stripeKey={process.env.REACT_APP_STRIPE_KEY}
-        stripeKey="pk_test_51H7Xe3BegJpnimM4YmZ1zde8xgnOYvfWz6wcLYwVXxGp2u8wkVSjWnP7ZoX3D8eOGVdb3DgxlXzGNRtraISIEE1100XgqwfkVS"
+        stripeKey={
+          "pk_test_51H7Xe3BegJpnimM4YmZ1zde8xgnOYvfWz6wcLYwVXxGp2u8wkVSjWnP7ZoX3D8eOGVdb3DgxlXzGNRtraISIEE1100XgqwfkVS"
+        }
       >
         <button className="btn">Add Credits</button>
       </StripeCheckout>
